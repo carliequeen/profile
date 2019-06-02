@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Rancho', cursive;
+  color: #085f63;
+}
+
+h1 {
+  color: #fabc60;
+  font-weight: normal;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Satisfy', cursive;
+}
+
+h2 {
+  color: #ff5959;
+  font-family: sans-serif;
+  font-size: 75%;
+  margin:0;
+}
+
+h3 {
+  color: #49beb7;
+  font-family: 'Romanesco', cursive;
+  font-size: 125%;
+}
+
+a {
+  font-family: 'Rancho', cursive;
+  color: #085f63;
+}
+
+
+a:hover{
+    color: #ff5959;
+}
+
+hr {
+  width: 5%;
+  border: dotted #fabc60 5px;
+  border-bottom: none;
+  margin: 50px auto;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.profile {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.profile-img {
+  width: 30%;
+  /*  float: left; float is used to wrap text around an image */
+  margin-right: 30px;
+}
+
+.books-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.screen-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.top {
+  background-color: #49beb7;
+  position: relative;
+  padding-top: 100px
+}
+
+.bottom-container {
+  background-color: #49beb7;
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+
+
+.contact-me{
+      margin-bottom: 50px;
+}
+
+
+.butn {
+  background: #fabc60;
+  background-image: -webkit-linear-gradient(top, #fabc60, #ff5959);
+  background-image: -moz-linear-gradient(top, #fabc60, #ff5959);
+  background-image: -ms-linear-gradient(top, #fabc60, #ff5959);
+  background-image: -o-linear-gradient(top, #fabc60, #ff5959);
+  background-image: linear-gradient(to bottom, #fabc60, #ff5959);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #ff5959;
+  background-image: -webkit-linear-gradient(top, #ff5959, #fabc60);
+  background-image: -moz-linear-gradient(top, #ff5959, #fabc60);
+  background-image: -ms-linear-gradient(top, #ff5959, #fabc60);
+  background-image: -o-linear-gradient(top, #ff5959, #fabc60);
+  background-image: linear-gradient(to bottom, #ff5959, #fabc60);
+  text-decoration: none;
+}
+
+
+  .copywrite{
+    font-size: 1rem;
+    color:white;
+  }
